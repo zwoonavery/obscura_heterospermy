@@ -2,12 +2,15 @@
 *.snakemake
 
 ## ignore input files
-*/input/
 *.json
+*.csv
+analysis/intermediate/
 
 ## ignore results files
 workflow/*/results/
 workflow/*/*/results/
 
-##ignore figures
-figures/
+## ignore figures
+figures/*.png
+
+## ignore large files
